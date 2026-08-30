@@ -29,13 +29,14 @@ export const Hero: React.FC = () => {
             <span>ACCESSIBILITY, REIMAGINED</span>
           </div>
 
-          {/* Large Headline */}
+          {/* Large Headline in Instrument Serif */}
           <h1
             id="hero-title"
-            className="font-sans font-extrabold text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-[var(--text-main)] leading-[1.04]"
+            className="font-editorial text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-[var(--text-main)] leading-[1.04]"
           >
-            Understand what matters. <br />
-            <span className="text-[var(--accent-primary)]">Independently.</span>
+            Understand what <br />
+            matters. <br />
+            <span className="italic text-[var(--accent-primary)]">Independently.</span>
           </h1>
 
           {/* Subtitle */}

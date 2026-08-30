@@ -274,7 +274,7 @@ export const AnalyzerStudio: React.FC = () => {
           <span className="text-xs font-bold uppercase tracking-widest text-[var(--accent-primary)]">
             Sightline AI Vision Studio
           </span>
-          <h2 id="analyzer-title" className="font-sans font-extrabold tracking-tight text-4xl sm:text-5xl text-[var(--text-main)] leading-tight">
+          <h2 id="analyzer-title" className="font-editorial text-4xl sm:text-5xl text-[var(--text-main)] leading-tight">
             Analysis Studio.
           </h2>
           <p className="text-base text-[var(--text-muted)]">
