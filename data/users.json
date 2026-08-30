@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_8823f9",
+      "name": "Sarah Mitchell",
+      "displayName": "Sarah",
+      "email": "demo@sightline.local",
+      "passwordHash": "$pbkdf2-sha512$100000$075276b8c87d8287d53e6f35f41197bf$6365b126bdcdaeb5b6600f6e3718d2e3b7a99d945e30f5f59f998077e8d7531daf63a3f2285b123450877acfb82a401e924220e7682ac4b51dbc4fb3008c6cb5",
+      "emailVerified": true,
+      "verificationTokenHash": null,
+      "verificationTokenExpiresAt": null,
+      "createdAt": "2026-08-30T06:00:00.000Z",
+      "updatedAt": "2026-08-30T06:00:00.000Z",
+      "lastLoginAt": null,
+      "preferences": {
+        "theme": "light",
+        "textSize": "normal",
+        "highContrast": false,
+        "voiceEnabled": true
+      }
+    }
+  ],
+  "sessions": [],
+  "history": [
+    {
+      "id": "hist_1",
+      "userId": "usr_demo_8823f9",
+      "type": "document",
+      "title": "Semester Tuition & Bursar Notice",
+      "summary": "Tuition fee of ₹2,500 due by September 15, 2026 for course registration.",
+      "timestamp": "2026-08-30T06:10:00.000Z",
+      "metadata": {
+        "amount": "₹2,500",
+        "deadline": "Sept 15, 2026"
+      }
+    },
+    {
+      "id": "hist_2",
+      "userId": "usr_demo_8823f9",
+      "type": "medicine",
+      "title": "Paracetamol 500mg Unit Box",
+      "summary": "Verified 500mg analgesic. Batch LOT-8842-M, Expiry 11/2027.",
+      "timestamp": "2026-08-30T06:15:00.000Z",
+      "metadata": {
+        "dosage": "500mg",
+        "expiry": "11/2027"
+      }
+    }
+  ]
+}

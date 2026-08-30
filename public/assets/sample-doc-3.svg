@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" fill="none">
+  <!-- Paper Background -->
+  <rect width="400" height="520" rx="8" fill="#FAF8F5" stroke="#DCD6CA" stroke-width="2"/>
+  
+  <!-- Header Banner -->
+  <rect x="24" y="24" width="352" height="60" rx="6" fill="#0C4A60"/>
+  <rect x="42" y="38" width="32" height="32" rx="4" fill="#FFFFFF" fill-opacity="0.2"/>
+  <text x="86" y="48" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">CITY REVENUE DEPARTMENT</text>
+  <text x="86" y="66" fill="#A5E2E4" font-family="sans-serif" font-size="10">OFFICE OF THE MUNICIPAL TAX ASSESSOR</text>
+  
+  <!-- Title -->
+  <text x="24" y="118" fill="#121316" font-family="sans-serif" font-size="15" font-weight="700">PROPERTY TAX ASSESSMENT NOTICE 2026</text>
+  <text x="24" y="138" fill="#5A5E67" font-family="sans-serif" font-size="11">Parcel ID: #409-291-002 • Assessed Value: $248,000</text>
+  
+  <!-- Divider -->
+  <line x1="24" y1="150" x2="376" y2="150" stroke="#E4DFD3" stroke-width="1.5"/>
+  
+  <!-- Discount Notice -->
+  <rect x="24" y="164" width="352" height="74" rx="6" fill="#EDF9F0" stroke="#B7E4C7" stroke-width="1.5"/>
+  <text x="40" y="188" fill="#0E6229" font-family="sans-serif" font-size="11" font-weight="700">EARLY PAYMENT REBATE AVAILABLE</text>
+  <text x="40" y="206" fill="#053D15" font-family="sans-serif" font-size="12">Pay before </text>
+  <text x="110" y="206" fill="#0E6229" font-family="sans-serif" font-size="12" font-weight="700">October 10, 2026</text>
+  <text x="220" y="206" fill="#053D15" font-family="sans-serif" font-size="12"> to save 5% ($62.00).</text>
+  <text x="40" y="224" fill="#053D15" font-family="sans-serif" font-size="11">Final standard due date is October 31, 2026.</text>
+  
+  <!-- Assessment Table -->
+  <rect x="24" y="252" width="352" height="120" rx="6" fill="#FFFFFF" stroke="#E4DFD3" stroke-width="1"/>
+  <text x="40" y="278" fill="#5A5E67" font-family="sans-serif" font-size="11">Assessment Category</text>
+  <text x="360" y="278" fill="#5A5E67" font-family="sans-serif" font-size="11" text-anchor="end">Amount</text>
+  <line x1="40" y1="288" x2="360" y2="288" stroke="#F0ECE1" stroke-width="1"/>
+  
+  <text x="40" y="308" fill="#121316" font-family="sans-serif" font-size="12">Municipal Services &amp; Fire Protection</text>
+  <text x="360" y="308" fill="#121316" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="end">$780.00</text>
+  
+  <text x="40" y="328" fill="#121316" font-family="sans-serif" font-size="12">Local Public School District Tax</text>
+  <text x="360" y="328" fill="#121316" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="end">$460.00</text>
+  
+  <line x1="40" y1="340" x2="360" y2="340" stroke="#E4DFD3" stroke-width="1.5"/>
+  <text x="40" y="360" fill="#121316" font-family="sans-serif" font-size="13" font-weight="700">Total Standard Tax</text>
+  <text x="360" y="360" fill="#0C4A60" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="end">$1,240.00</text>
+  
+  <!-- Info footer -->
+  <rect x="24" y="386" width="352" height="106" rx="6" fill="#F8F6F0" stroke="#E4DFD3" stroke-width="1"/>
+  <text x="40" y="412" fill="#121316" font-family="sans-serif" font-size="11" font-weight="600">PAYMENT &amp; APPEAL OPTIONS:</text>
+  <text x="40" y="432" fill="#5A5E67" font-family="sans-serif" font-size="10">• Early discounted sum: $1,178.00 (Due Oct 10)</text>
+  <text x="40" y="450" fill="#5A5E67" font-family="sans-serif" font-size="10">• Standard sum: $1,240.00 (Due Oct 31)</text>
+  <text x="40" y="468" fill="#5A5E67" font-family="sans-serif" font-size="10">• Appeal window closes Nov 15 via municipal portal</text>
+</svg>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" class="font-sans antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGHTLINE — Understand what matters. Independently.</title>
+    <meta name="description" content="AI-powered accessibility assistant designed specifically for visually impaired users to independently comprehend printed documents and medicine labels." />
+    <meta name="theme-color" content="#121316" />
+    
+    <!-- Google Fonts: Inter & Instrument Serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-base text-main transition-colors duration-200 selection:bg-accent/20 selection:text-accent">
+    <!-- Screen Reader Landmark: Skip Link -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-accent focus:text-white focus:rounded-lg focus:shadow-xl focus:outline-none focus:ring-4 focus:ring-accent/50 focus:font-semibold">
+      Skip to main content
+    </a>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

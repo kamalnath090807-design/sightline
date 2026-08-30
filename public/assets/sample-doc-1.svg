@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" fill="none">
+  <!-- Paper Background -->
+  <rect width="400" height="520" rx="8" fill="#FAF8F5" stroke="#DCD6CA" stroke-width="2"/>
+  
+  <!-- Header Banner -->
+  <rect x="24" y="24" width="352" height="60" rx="6" fill="#121316"/>
+  <circle cx="56" cy="54" r="16" fill="#0265D2"/>
+  <path d="M52 54L56 58L62 50" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="82" y="48" fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="700">STATE UNIVERSITY</text>
+  <text x="82" y="66" fill="#9BA1B0" font-family="sans-serif" font-size="11">OFFICE OF THE BURSAR & REGISTRAR</text>
+  
+  <!-- Document Title -->
+  <text x="24" y="120" fill="#121316" font-family="sans-serif" font-size="16" font-weight="700">FALL 2026 REGISTRATION & FEE NOTICE</text>
+  <text x="24" y="140" fill="#5A5E67" font-family="sans-serif" font-size="11">Date: August 28, 2026 • Ref: BUR-2026-9921</text>
+  
+  <!-- Divider -->
+  <line x1="24" y1="152" x2="376" y2="152" stroke="#E4DFD3" stroke-width="1.5"/>
+  
+  <!-- Highlight Notice Box -->
+  <rect x="24" y="168" width="352" height="74" rx="6" fill="#FFF8E6" stroke="#F7D58B" stroke-width="1.5"/>
+  <text x="40" y="192" fill="#8F5200" font-family="sans-serif" font-size="11" font-weight="700">CRITICAL DEADLINE NOTICE</text>
+  <text x="40" y="210" fill="#533F03" font-family="sans-serif" font-size="12">Payment due on or before: </text>
+  <text x="190" y="210" fill="#8F5200" font-family="sans-serif" font-size="12" font-weight="700">September 15, 2026</text>
+  <text x="40" y="228" fill="#533F03" font-family="sans-serif" font-size="11">Late fee of ₹500 applies after midnight.</text>
+  
+  <!-- Fee Details Table -->
+  <rect x="24" y="258" width="352" height="120" rx="6" fill="#FFFFFF" stroke="#E4DFD3" stroke-width="1"/>
+  <text x="40" y="282" fill="#5A5E67" font-family="sans-serif" font-size="11">Fee Description</text>
+  <text x="310" y="282" fill="#5A5E67" font-family="sans-serif" font-size="11" text-anchor="end">Amount</text>
+  <line x1="40" y1="292" x2="360" y2="292" stroke="#F0ECE1" stroke-width="1"/>
+  
+  <text x="40" y="312" fill="#121316" font-family="sans-serif" font-size="12">Semester Tuition & Reg.</text>
+  <text x="360" y="312" fill="#121316" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="end">₹2,000</text>
+  
+  <text x="40" y="332" fill="#121316" font-family="sans-serif" font-size="12">Laboratory & Campus Tech Fee</text>
+  <text x="360" y="332" fill="#121316" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="end">₹500</text>
+  
+  <line x1="40" y1="344" x2="360" y2="344" stroke="#E4DFD3" stroke-width="1.5"/>
+  <text x="40" y="364" fill="#121316" font-family="sans-serif" font-size="13" font-weight="700">Total Payable Amount</text>
+  <text x="360" y="364" fill="#0265D2" font-family="sans-serif" font-size="14" font-weight="700" text-anchor="end">₹2,500 ($250)</text>
+  
+  <!-- Stamp / Signature -->
+  <rect x="24" y="394" width="352" height="96" rx="6" fill="#FBF9F5" stroke="#E4DFD3" stroke-width="1"/>
+  <text x="40" y="420" fill="#121316" font-family="sans-serif" font-size="11" font-weight="600">INSTRUCTIONS FOR ONLINE PAYMENT:</text>
+  <text x="40" y="438" fill="#5A5E67" font-family="sans-serif" font-size="10">1. Visit https://portal.stateuniv.edu/bursar</text>
+  <text x="40" y="454" fill="#5A5E67" font-family="sans-serif" font-size="10">2. Enter Student Roll Number & Date of Birth</text>
+  <text x="40" y="470" fill="#5A5E67" font-family="sans-serif" font-size="10">3. Save and print transaction receipt for records</text>
+</svg>

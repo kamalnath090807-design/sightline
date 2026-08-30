@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <!-- Foil Blister Background -->
+  <rect width="400" height="400" rx="16" fill="#E8ECEF" stroke="#B8C4CE" stroke-width="2"/>
+  
+  <!-- Metallic sheen lines -->
+  <line x1="0" y1="80" x2="400" y2="80" stroke="#D1D9E0" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <line x1="0" y1="200" x2="400" y2="200" stroke="#D1D9E0" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <line x1="0" y1="320" x2="400" y2="320" stroke="#D1D9E0" stroke-width="1.5" stroke-dasharray="8 6"/>
+  
+  <!-- Capsule Pockets row 1 -->
+  <rect x="40" y="24" width="90" height="42" rx="21" fill="#C5D3E0" stroke="#9EAFBE" stroke-width="1.5"/>
+  <rect x="155" y="24" width="90" height="42" rx="21" fill="#C5D3E0" stroke="#9EAFBE" stroke-width="1.5"/>
+  <rect x="270" y="24" width="90" height="42" rx="21" fill="#C5D3E0" stroke="#9EAFBE" stroke-width="1.5"/>
+
+  <!-- Brand Label Area -->
+  <rect x="30" y="96" width="340" height="88" rx="8" fill="#FFFFFF" stroke="#D1D9E0" stroke-width="1"/>
+  <rect x="30" y="96" width="10" height="88" rx="4" fill="#C81D25"/>
+  <text x="52" y="126" fill="#C81D25" font-family="sans-serif" font-size="12" font-weight="700">Rx ANTIBIOTIC • ORAL CAPSULE</text>
+  <text x="52" y="152" fill="#121316" font-family="sans-serif" font-size="20" font-weight="800">AMOXICILLIN 500mg</text>
+  <text x="52" y="172" fill="#5A5E67" font-family="sans-serif" font-size="11">Amoxicillin Trihydrate IP equivalent to 500 mg</text>
+  
+  <!-- Capsule Pockets row 2 -->
+  <rect x="40" y="214" width="90" height="42" rx="21" fill="#C5D3E0" stroke="#9EAFBE" stroke-width="1.5"/>
+  <rect x="155" y="214" width="90" height="42" rx="21" fill="#C5D3E0" stroke="#9EAFBE" stroke-width="1.5"/>
+  <rect x="270" y="214" width="90" height="42" rx="21" fill="#C5D3E0" stroke="#9EAFBE" stroke-width="1.5"/>
+  
+  <!-- Expiry & Batch info -->
+  <rect x="30" y="278" width="340" height="98" rx="8" fill="#FFFFFF" stroke="#D1D9E0" stroke-width="1"/>
+  <text x="46" y="304" fill="#121316" font-family="monospace" font-size="13" font-weight="700">B.No: AX-94812</text>
+  <text x="210" y="304" fill="#121316" font-family="monospace" font-size="13" font-weight="700">MFG: 12/2024</text>
+  <text x="46" y="332" fill="#A8201A" font-family="monospace" font-size="15" font-weight="800">EXP: 11/2027</text>
+  <text x="210" y="332" fill="#0E6229" font-family="sans-serif" font-size="12" font-weight="700">10 CAPSULES</text>
+  <text x="46" y="358" fill="#5A5E67" font-family="sans-serif" font-size="10">Store below 25°C. Keep dry. Apex Pharmaceuticals</text>
+</svg>
