@@ -12,6 +12,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <script>
+      (function() {
+        try {
+          var mode = localStorage.getItem('sightline_contrast_mode') || 'dark';
+          document.documentElement.dataset.contrast = mode;
+        } catch (e) {
+          document.documentElement.dataset.contrast = 'dark';
+        }
+      })();
+    </script>
   </head>
   <body class="bg-base text-main transition-colors duration-200 selection:bg-accent/20 selection:text-accent">
     <!-- Screen Reader Landmark: Skip Link -->
