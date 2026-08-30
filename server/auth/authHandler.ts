@@ -85,7 +85,7 @@ export async function handleSignup(body: any, ip = '127.0.0.1') {
     updatedAt: new Date().toISOString(),
     lastLoginAt: null,
     preferences: {
-      theme: 'light',
+      theme: 'dark',
       textSize: 'normal',
       highContrast: false,
       voiceEnabled: true,

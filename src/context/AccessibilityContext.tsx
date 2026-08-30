@@ -36,9 +36,9 @@ export const AccessibilityProvider: React.FC<{ children: React.ReactNode }> = ({
     return (localStorage.getItem('sightline_text_size') as TextSize) || 'normal';
   });
 
-  // 2. Contrast Mode State (standard, high-contrast, dark)
+  // 2. Contrast Mode State (dark [default], standard, high-contrast)
   const [contrastMode, setContrastModeState] = useState<ContrastMode>(() => {
-    return (localStorage.getItem('sightline_contrast_mode') as ContrastMode) || 'standard';
+    return (localStorage.getItem('sightline_contrast_mode') as ContrastMode) || 'dark';
   });
 
   // 3. Voice Settings
