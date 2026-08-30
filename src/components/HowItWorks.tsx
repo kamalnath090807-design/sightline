@@ -10,7 +10,7 @@ export const HowItWorks: React.FC = () => {
         <span className="text-xs font-bold uppercase tracking-widest text-[var(--accent-primary)]">
           The Workflow
         </span>
-        <h2 className="font-editorial text-4xl sm:text-5xl text-[var(--text-main)] leading-tight">
+        <h2 className="font-editorial font-normal text-4xl sm:text-5xl text-[var(--text-main)] leading-tight">
           How SIGHTLINE works.
         </h2>
         <p className="text-base sm:text-lg text-[var(--text-muted)]">

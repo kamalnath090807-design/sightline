@@ -6,6 +6,7 @@
 
 .font-editorial {
   font-family: 'Instrument Serif', Georgia, serif !important;
+  font-weight: 400 !important;
 }
 
 @layer base {

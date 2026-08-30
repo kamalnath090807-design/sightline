@@ -129,7 +129,7 @@ export const InteractiveScrollShowcase: React.FC = () => {
 
           <h2
             id="showcase-heading"
-            className="font-editorial text-3xl sm:text-4xl md:text-5xl text-[var(--text-main)] leading-tight"
+            className="font-editorial font-normal text-3xl sm:text-4xl md:text-5xl text-[var(--text-main)] leading-tight"
           >
             From inaccessible <span className="italic text-[var(--accent-primary)]">to understandable.</span>
           </h2>

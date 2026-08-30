@@ -32,7 +32,7 @@ export const Hero: React.FC = () => {
           {/* Large Headline in Instrument Serif */}
           <h1
             id="hero-title"
-            className="font-editorial text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-[var(--text-main)] leading-[1.04]"
+            className="font-editorial font-normal text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-[var(--text-main)] leading-[1.04]"
           >
             Understand what <br />
             matters. <br />
