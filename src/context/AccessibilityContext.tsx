@@ -38,7 +38,13 @@ export const AccessibilityProvider: React.FC<{ children: React.ReactNode }> = ({
 
   // 2. Contrast Mode State (dark [default], standard, high-contrast)
   const [contrastMode, setContrastModeState] = useState<ContrastMode>(() => {
-    return (localStorage.getItem('sightline_contrast_mode') as ContrastMode) || 'dark';
+    try {
+      const saved = localStorage.getItem('sightline_contrast_mode_v2');
+      if (saved === 'high-contrast' || saved === 'standard' || saved === 'dark') {
+        return saved as ContrastMode;
+      }
+    } catch {}
+    return 'dark';
   });
 
   // 3. Voice Settings
@@ -72,7 +78,10 @@ export const AccessibilityProvider: React.FC<{ children: React.ReactNode }> = ({
 
   useEffect(() => {
     document.documentElement.dataset.contrast = contrastMode;
-    localStorage.setItem('sightline_contrast_mode', contrastMode);
+    try {
+      localStorage.setItem('sightline_contrast_mode_v2', contrastMode);
+      localStorage.setItem('sightline_contrast_mode', contrastMode);
+    } catch {}
   }, [contrastMode]);
 
   useEffect(() => {

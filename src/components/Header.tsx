@@ -279,9 +279,9 @@ export const Header: React.FC = () => {
                 </div>
                 <div className="grid grid-cols-3 gap-2">
                   {[
+                    { id: 'dark', label: 'Dark' },
                     { id: 'standard', label: 'Light' },
                     { id: 'high-contrast', label: 'Contrast' },
-                    { id: 'dark', label: 'Dark' },
                   ].map(({ id, label }) => (
                     <button
                       key={id}

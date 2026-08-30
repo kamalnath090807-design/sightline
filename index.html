@@ -16,7 +16,7 @@
     <script>
       (function() {
         try {
-          var mode = localStorage.getItem('sightline_contrast_mode') || 'dark';
+          var mode = localStorage.getItem('sightline_contrast_mode_v2') || 'dark';
           document.documentElement.dataset.contrast = mode;
         } catch (e) {
           document.documentElement.dataset.contrast = 'dark';

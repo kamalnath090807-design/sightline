@@ -66,9 +66,9 @@ export const AccessibilityToolbar: React.FC = () => {
             <span className="sr-only">Select visual theme and contrast</span>
             {(
               [
-                { mode: 'standard', label: 'Standard', short: 'Standard' },
-                { mode: 'high-contrast', label: 'High Contrast AAA', short: 'High Contrast' },
                 { mode: 'dark', label: 'Dark Mode', short: 'Dark' },
+                { mode: 'standard', label: 'Light Mode', short: 'Light' },
+                { mode: 'high-contrast', label: 'High Contrast AAA', short: 'Contrast' },
               ] as { mode: ContrastMode; label: string; short: string }[]
             ).map(({ mode, label, short }) => {
               const isActive = contrastMode === mode;
